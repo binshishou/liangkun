@@ -43,19 +43,21 @@ public class Mybaseadadpter extends BaseAdapter {
 
     @Override
     public View getView(int positin, View contentview, ViewGroup viewGroup) {
-        ViewHolder holder;
-        if(contentview == null){
-            contentview = contentview.inflate(context, R.layout.item,null);
-            holder = new ViewHolder();
-            holder.tv1 = (TextView) contentview.findViewById(R.id.textview1);
-            holder.tv2 = (TextView) contentview.findViewById(R.id.textview2);
-        }else{
-            holder = (ViewHolder) contentview.getTag();
-        }
-        holder.tv1.setText(mlist.get(positin).getSite_name());
-        holder.tv2.setText(mlist.get(positin).getAddress());
 
-        return contentview;
+                ViewHolder holder;
+                if(contentview == null){
+                    contentview = contentview.inflate(context, R.layout.item,null);
+                    holder = new ViewHolder();
+                    holder.tv1 = (TextView) contentview.findViewById(R.id.textview1);
+                    holder.tv2 = (TextView) contentview.findViewById(R.id.textview2);
+                }else{
+                    holder = (ViewHolder) contentview.getTag();
+                }
+                holder.tv1.setText(mlist.get(positin).getSite_name());
+                holder.tv2.setText(mlist.get(positin).getAddress());
+
+
+                return contentview;
     }
     class  ViewHolder{
         private TextView tv1 , tv2;

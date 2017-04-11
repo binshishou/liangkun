@@ -4,8 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Liangkun.iml" filepath="$PROJECT_DIR$/Liangkun.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app1/app1.iml" filepath="$PROJECT_DIR$/app1/app1.iml" />
       <module fileurl="file://$PROJECT_DIR$/cehua/cehua.iml" filepath="$PROJECT_DIR$/cehua/cehua.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jinritoutiaozhu/jinritoutiaozhu.iml" filepath="$PROJECT_DIR$/jinritoutiaozhu/jinritoutiaozhu.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhoukaoyimoni/zhoukaoyimoni.iml" filepath="$PROJECT_DIR$/zhoukaoyimoni/zhoukaoyimoni.iml" />
     </modules>
   </component>
 </project>

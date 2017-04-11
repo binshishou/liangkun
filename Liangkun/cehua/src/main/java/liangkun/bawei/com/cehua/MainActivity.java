@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         menu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT);
         //为侧滑菜单设置布局
         menu.setMenu(R.layout.left_menu);
+
         
+
     }
 }
